@@ -13,37 +13,35 @@ a{text-decoration: none;}
 
 /******************** EJ portfolio ************************/
 #header{width:100%; height:100px;}
-#quick{float:left; width:100%; height:100px; 
+#header_in{float:left; width:100%; height:100px; 
       background-color:blueviolet;}
-#quick #logo{width:250px; height:100px; 
-     display:inline-block;}
-#quick #logo p{margin-left:60px; margin-top:20px; font-size:35px;}
-#quick #tap{float:right; width:1000px; height:100px; 
-    display:inline-block;}
-#quick #tap li{float:left; margin-left:80px; margin-top:10px; font-size:45px;}
+#header_in #logo{width:250px; height:100px; 
+      display:inline-block; margin-left:60px; margin-top:20px; font-size:35px;}
+#header_in #tap{float:right; width:1000px; height:100px; 
+      display:inline-block;}
+#header_in #tap li{float:left; margin-left:80px; margin-top:15px; font-size:38px;}
 /********************** introduce *************************/
 #introduce{width:100%; height:250px; background-color:beige;}
 #introduce h3{width:1150px; height:150px; margin:100px 0 0 50px;}
 
-
-
-
-
 /************************ skill ***************************/
-#skill{clear:both; margin:0 auto; width:1600px; height:550px; background-color:red;}
-/* #skill #effect_a{width:985px; height:120px; background-color:aqua;}
-#skill #effect_b{width:985px; height:120px; background-color:aqua;}
-#skill #effect_c{width:985px; height:120px; background-color:aqua;} */
-
-
-
-
+#skill{width:100%; height:700px;}
+#skill_in{margin: 0 auto;  width:1600px; height:650px;}
+#skill div{margin-left:100px; margin-top:50px; border-radius: 50px;  padding:10px; border:1px solid #333;}
+#skill #effect_a{width:985px; height:150px;}
+#skill #effect_b{width:1200px; height:150px;}
+#skill #effect_c{width:1200px; height:150px;}
 
 /*********************** project **************************/
-
-
-
-
-
+#project{width:100%; height:800px;}
+#project_in{margin: 0 auto; width:1600px; height:700px; background-color:bisque;}
+#project_a{width:790px; height:550px; }
+#project_ae{}
+#project_b{width:790px; height:550px;}
+#project_be{}
+#project_c{width:790px; height:550px;}
+#project_ce{}
+#project_d{width:790px; height:550px;}
+#project_de{}
 
 /*********************** finally **************************/
