@@ -34,13 +34,12 @@ $(function(){
 $('.project1_2').hide();
 
 $('.project1').click(function(){
-    $('.project1_2').each(function(i){
-        if($(this).css('display') == 'block'){
-            $(this).next().slideDown('fast');
-        }
 
-    });
-
-
+    $('.project1_2').each(function(){
+		if($(this).css("display") == "block"){
+			$(this).slideUp("fast");
+		};
+	});
+	$(this).next().slideDown("fast");
 });
 });
