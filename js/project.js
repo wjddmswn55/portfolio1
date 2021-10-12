@@ -31,15 +31,11 @@ $(function(){
 
 //////////////////////////// project1 /////////////////////////////////
 $(function(){
-$('.project1_2').hide();
+  $('.project1_2').hide();
+  
+  $('.project1').click(function(){
+         $('.project1_2').hide();
+         $(this).next('.project1_2').show();
 
-$('.project1').click(function(){
-
-    $('.project1_2').each(function(){
-		if($(this).css("display") == "block"){
-			$(this).slideUp("fast");
-		};
-	});
-	$(this).next().slideDown("fast");
-});
-});
+  });
+  });
