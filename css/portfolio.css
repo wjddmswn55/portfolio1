@@ -1,0 +1,120 @@
+*{margin:0; padding:0;}
+body{font-family:'맑은고딕';
+font-size:16px;
+color:#333;}
+img{border:0;}
+ul,li{list-style:none;}
+a{text-decoration: none;}
+
+#wrap{width:100%;}
+#wrap > *{float:left;}
+
+
+
+/******************** EJ portfolio(웹 1920기본)************************/
+#header{width:100%; height:100px; position:fixed;}
+#header_in{float:left; margin-left:150px; width:1600px; height:100px;}
+#header_in a{color:#000; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#header_in #logo{width:250px; height:100px; 
+      display:inline-block; margin:20px 0 0 60px; font-size:35px;}
+
+#header_in #tap{float:right; width:1000px; height:100px; 
+      display:inline-block;}
+#header_in #tap li{float:left; margin:15px 0 0 80px; font-size:38px;}
+#header_in #tap li.on a{color:green;}
+
+
+
+/********************** introduce *************************/
+#introduce{width:100%; height:200px; margin-top:100px; background:url(../images/introduce.png) no-repeat;}
+#introduce h1{width:1000px; padding:100px 0 0 250px;}
+
+
+
+/************************ skill ***************************/
+#skill{width:100%; height:800px; background:url(../images/skill.png) no-repeat; padding-top:100px;}
+#skill_in{margin: 0 auto; width:1600px; height:650px; margin-left:150px; }
+#skill div{margin-left:100px; margin-top:50px; border-radius: 50px;  padding:10px; border:1px solid #333;}
+#skill #effect_a{width:800px; height:150px;}
+#skill #effect_a:hover #slide{animation-name: ani01; animation-duration:3s;}
+#skill #effect_b{width:1000px; height:150px;}
+#skill #effect_c{width:1000px; height:150px;}
+
+
+
+/*********************** project **************************/
+#project{width:100%; height:2100px; padding-top:50px; background:url(../images/project.png) no-repeat;}
+#project_in{margin: 0 auto; width:1600px; height:2100px; margin-left:150px;}
+
+#project_in #project_a{width:1600px; height:525px;}
+#project_in #project_a > div{float:left;}
+#project_in #project_a1{width:500px; height:400px; background-color:thistle; opacity:1; border-radius:30px; margin:50px 0 0 150px;}
+#project_in #project_a2{width:600px; height:500px; background-color:teal; border-radius:30px;  margin-left:150px;}
+#project_in #project_a1:hover{opacity:0.7; cursor: pointer;}
+
+#project_in #project_b{width:1600px; height: 525px;}
+#project_in #project_b > div{float:left;}
+#project_in #project_b1{width:500px; height:400px; background-color:thistle; opacity:1; border-radius:30px; margin:50px 0 0 150px;}
+#project_in #project_b2{width:600px; height:500px; background-color:teal; border-radius:30px;  margin-left:150px;}
+#project_in #project_b1:hover{opacity:0.7; cursor: pointer;}
+
+#project_in #project_c{width:1600px; height:525px;}
+#project_in #project_c > div{float:left;}
+#project_in #project_c1{width:500px; height:400px; background-color:thistle; opacity:1; border-radius:30px; margin:50px 0 0 150px;}
+#project_in #project_c2{width:600px; height:500px; background-color:teal; border-radius:30px;  margin-left:150px;}
+#project_in #project_c1:hover{opacity:0.7; cursor: pointer;}
+
+#project_in #project_d{width:1600px; height:525px;}
+#project_in #project_d > div{float:left;}
+#project_in #project_d1{width:500px; height:400px; background-color:thistle; opacity:1; border-radius:30px; margin:50px 0 0 150px;}
+#project_in #project_d2{width:600px; height:500px; background-color:teal; border-radius:30px; margin-left:150px;}
+#project_in #project_d1:hover{opacity:0.7; cursor: pointer;}
+
+
+
+/*********************** finally **************************/
+#finally{width:100%; height:1000px; background:url(../images/finally.png) no-repeat;}
+#finally_a{margin: 0 auto; width:1600px; height:500px;}
+
+/******************************** 애니메이션 **************************************/
+@keyframes ani01{
+      from{margin-left:70%;}
+      to{margin-left:0%;}
+      }
+
+/************************** 반응형(1600px) *********************************//*백그라운드 이미지 깔아주기*/
+@media screen and (max-width:1600px){
+#header{width:100%; height:100px; position:fixed;}
+#header_in{float:left; margin-left:110px; width:83.3%; height:100px;}
+#header_in #logo{width:13%; height:100px; 
+      display:inline-block; margin:15px 0 0 55px; font-size:30px;}
+#header_in #tap{float:right; width:52.1%; height:100px; 
+      display:inline-block;}
+#header_in #tap li{float:left; margin:12px 0 0 80px; font-size:33px;}
+
+#introduce{width:100%; height:200px;}
+#introduce h1{width:59.9%; height:120px; margin:80px 0 0 150px;}
+
+#project{width:100%; height:1800px;}
+#project_in{margin: 0 auto; width:83.3%; height:1800px; margin-left:200px;}
+
+#project_in #project_a{width:83.3%; height:450px;}
+#project_in #project_a1{width:26%; height:320px; background-color:thistle; opacity:1; border-radius:25px; margin:40px 0 0 110px;}
+#project_in #project_a2{width:34%; height:400px; background-color:teal; border-radius:25px;  margin-left:130px;}
+
+#project_in #project_b{width:83.3%; height:450px;}
+#project_in #project_b1{width:26%; height:320px; background-color:thistle; opacity:1; border-radius:25px; margin:40px 0 0 110px;}
+#project_in #project_b2{width:34%; height:400px; background-color:teal; border-radius:25px;  margin-left:130px;}
+
+#project_in #project_c{width:83.3%; height:450px;}
+#project_in #project_c1{width:26%; height:320px; background-color:thistle; opacity:1; border-radius:25px; margin:40px 0 0 110px;}
+#project_in #project_c2{width:34%; height:400px; background-color:teal; border-radius:25px;  margin-left:130px;}
+
+#project_in #project_d{width:83.3%; height:450px;}
+#project_in #project_d1{width:26%; height:320px; background-color:thistle; opacity:1; border-radius:25px; margin:40px 0 0 110px;}
+#project_in #project_d2{width:34%; height:400px; background-color:teal; border-radius:25px; margin-left:130px;}
+
+#finally{width:100%; height:900px;}
+#finally_a{margin: 0 auto; width:83.3%; height:400px;}
+}
