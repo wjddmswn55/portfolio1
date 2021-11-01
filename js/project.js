@@ -34,8 +34,8 @@ $(function(){
   $('.project1_2').hide();
   
   $('.project1').click(function(){
-         $('.project1_2').hide();
-         $(this).next('.project1_2').show();
+         $('.project1_2').hide(500);
+         $(this).next('.project1_2').show(500);
 
   });
   });
